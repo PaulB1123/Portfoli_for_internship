@@ -1,0 +1,40 @@
+/* || UTILITIES */
+
+/* :root {
+    background: yellow;
+  } */
+
+
+nav ul li {
+    display: table-cell;
+    text-align: center;
+}
+
+.nobullets {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* || 00 NAVIGATION */
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav_chap {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_chap li {
+    margin-left: 1.2rem;
+}
